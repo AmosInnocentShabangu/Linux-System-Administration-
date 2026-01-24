@@ -18,6 +18,23 @@ The labs focus on real-world administrative tasks such as:
 - Tools: Bash, core Linux utilities
 
 ---
+## How to run
+
+````bash
+sudo apt update
+sudo apt upgrade
+sudo apt install htop
+df -h
+top
+free -m
+ls
+mkdir admin_test
+touch admin_test/file1.txt
+ls -l
+chomd 700 admin_test
+ls -l
+````
+
 ## screenshoots
 
 <img width="1366" height="768" alt="ad6" src="https://github.com/user-attachments/assets/97e14cab-ba15-4ada-9882-ebd893902417" />
