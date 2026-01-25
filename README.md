@@ -57,11 +57,37 @@ Installs the htop process monitoring tool.
 
 **Why it matters:**
 htop provides a clearer, interactive view of system processes than top.
+
+**Example**
 ````bash
 sudo apt install htop
 ````
 ### Screenshot
 <img width="1366" height="768" alt="ad2" src="https://github.com/user-attachments/assets/c84bbb94-e113-4ce3-9fbc-c88bf2dcb437" />
+
+## Permissions & Ownership
+
+### command chmod
+
+**Descreption**
+Permission meaning:
+
+7 → owner: read, write, execute
+
+0 → group: no access
+
+0 → others: no access
+
+**Why it matters:**
+Restricts access to sensitive directories (owner-only access).
+
+**Example:**
+```bash
+chmod 700 admin_test
+```
+### screenshot
+<img width="1366" height="733" alt="pm" src="https://github.com/user-attachments/assets/3236b8ea-271a-4779-939f-ef54d0057a17" />
+
 
 ### System Resource Monitoring
 
@@ -199,7 +225,7 @@ Searches for files and directories.
 **Example:**
 
 ```bash
-find /var/log -type f -name "*.log"
+find a.out
 ```
 
 ### Command: ln
