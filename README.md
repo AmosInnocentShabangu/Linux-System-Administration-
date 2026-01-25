@@ -91,7 +91,7 @@ cd - → return to previous directory
 cd ..
 cd ~
 cd -
-dc /path
+cd /path
 ````
 ### Command: mkdir
 
