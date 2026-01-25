@@ -43,3 +43,215 @@ ls -l
 <img width="1366" height="768" alt="ad3" src="https://github.com/user-attachments/assets/0a3ca79e-f409-4de5-ac4e-4f933ba5526c" />
 <img width="1366" height="768" alt="ad2" src="https://github.com/user-attachments/assets/c84bbb94-e113-4ce3-9fbc-c88bf2dcb437" />
 <img width="1366" height="768" alt="ad1" src="https://github.com/user-attachments/assets/88d4df02-42bb-4cfe-8c25-330104960d50" />
+
+---
+## basics/navigation
+### Command: ls
+
+**Description:**  
+Lists files and directories in a directory.
+
+**Common Options:**
+- `-l` → long listing format
+- `-a` → include hidden files
+- `-h` → human-readable sizes
+
+**Example:**
+```bash
+ls -lah
+```
+<img width="1366" height="733" alt="ls lah" src="https://github.com/user-attachments/assets/f755bb15-28a5-41ad-af43-dc2fbfb5ac8c" />
+
+### Command: pwd
+
+**Description:**  
+Prints the full path of the current working directory.
+
+**Example:**
+```bash
+pwd
+```
+### Command: cd
+
+**Description:**
+Changes the current working directory.
+
+
+**Common Options:**
+
+cd .. → move to parent directory
+
+cd ~ → move to home directory
+
+cd - → return to previous directory
+
+**Example:**
+
+````bash
+cd ..
+cd ~
+cd -
+dc /path
+````
+### Command: mkdir
+
+**Description:**  
+Creates directories.
+
+**Example:**
+```bash
+mkdir admin_test
+```
+Command: mv
+
+Description:
+Moves or renames files and directories.
+
+Example:
+```bash
+mv simple.c admin_test
+```
+
+### Command: cp
+
+**Description:**
+Copies files and directories.
+
+**Common Options:**
+
+-r → copy directories recursively
+
+-a → preserve attributes
+
+**Example:**
+```bash
+cp 
+```
+### Command: touch
+
+**Description:**
+Creates empty files or updates file timestamps.
+
+**Example:**
+```bash
+touch notes.txt
+```
+### Command: find
+
+**Description:**
+Searches for files and directories.
+
+ **Common Options**:
+
+-name → search by name
+ 
+-type → filter by file type
+
+**Example:**
+
+```bash
+find /var/log -type f -name "*.log"
+```
+
+### Command: ln
+
+**Description:**
+Creates links between files.
+
+**Common Options:**
+
+-s → create symbolic link
+
+**Example:**
+```bash
+ln -s /usr/bin/python3 python
+```
+### screenshot
+
+<img width="1366" height="733" alt="com" src="https://github.com/user-attachments/assets/5fe53030-64ea-453b-b7b5-ebb76b6dd232" />
+
+---
+
+## Networking and Connectivity Tools
+
+### Command: ping
+
+**Description:**  
+Sends ICMP echo requests to test network connectivity between the local machine and a remote host.
+
+**Common Options:**
+- `-c <count>` → number of packets to send
+- `-i <interval>` → time between packets
+
+**Example:**
+```bash
+ping -c 4 google.com
+```
+### Command: traceroute
+
+**Description:**
+Displays the path packets take to reach a destination host.
+
+**Common Options:**
+
+-n → do not resolve IP addresses to hostnames
+
+-m <max> → set maximum hop count
+
+**Example:**
+```bash
+traceroute google.com
+```
+
+### Command: ss
+
+**Description:**
+Displays socket statistics and active network connections.
+
+**Common Options:**
+
+-l → show listening sockets
+
+-t → TCP sockets
+
+-u → UDP sockets
+
+-n → do not resolve service names
+
+**Example:**
+
+```bash
+ss -tuln
+```
+
+### Command: ip
+
+**Description:**
+Displays and manages network interfaces, routes, and IP addresses.
+
+**Common Options:**
+
+addr → show IP addresses
+
+link → show network interfaces
+
+route → display routing table
+
+**Example:**
+```bash
+ip addr show
+```
+
+### Command: hostname
+
+**Description:**
+Displays or sets the system hostname.
+
+**Example:**
+```bash
+hostname
+```
+## screenshot
+
+<img width="1366" height="733" alt="net2" src="https://github.com/user-attachments/assets/bd43ea0f-8d18-4cf9-996d-578d023926fd" />
+<img width="1366" height="733" alt="net" src="https://github.com/user-attachments/assets/614b3c1b-6324-4b66-9cfa-052a86412e99" />
