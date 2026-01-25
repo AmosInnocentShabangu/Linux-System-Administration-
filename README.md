@@ -20,29 +20,78 @@ The labs focus on real-world administrative tasks such as:
 ---
 ## How to run
 
-````bash
+### System Update & Package Management
+
+### command: sudo apt update
+
+***Description:**
+Updates the local package index from repositories.
+
+**Why it matters:**
+Ensures the system knows about the latest available package versions.
+
+**Example:**
+```bash
 sudo apt update
+```
+
+### command: sudo apt upgrade
+
+**Description:**
+Upgrades installed packages to the latest versions.
+
+**Why it matters:**
+Keeps the system secure and up to date.
+
+**Example:***
+```bash
 sudo apt upgrade
-sudo apt install htop
-df -h
-top
-free -m
-ls
-mkdir admin_test
-touch admin_test/file1.txt
-ls -l
-chomd 700 admin_test
-ls -l
-````
-
-## screenshoots
-
-<img width="1366" height="768" alt="ad6" src="https://github.com/user-attachments/assets/97e14cab-ba15-4ada-9882-ebd893902417" />
-<img width="1366" height="768" alt="ad5" src="https://github.com/user-attachments/assets/7edcc9ac-3db4-4d5c-b953-fe9097146cb0" />
-<img width="1366" height="768" alt="ad4" src="https://github.com/user-attachments/assets/c1f973ae-bdd2-4bdd-a4dd-ff01c203e77e" />
+```
+### Screenshot
 <img width="1366" height="768" alt="ad3" src="https://github.com/user-attachments/assets/0a3ca79e-f409-4de5-ac4e-4f933ba5526c" />
+
+### command: sudo apt install htop
+
+**Description:**
+Installs the htop process monitoring tool.
+
+**Why it matters:**
+htop provides a clearer, interactive view of system processes than top.
+````bash
+sudo apt install htop
+````
+### Screenshot
 <img width="1366" height="768" alt="ad2" src="https://github.com/user-attachments/assets/c84bbb94-e113-4ce3-9fbc-c88bf2dcb437" />
-<img width="1366" height="768" alt="ad1" src="https://github.com/user-attachments/assets/88d4df02-42bb-4cfe-8c25-330104960d50" />
+
+### System Resource Monitoring
+
+### command: df -h
+
+**Description:**
+Displays disk space usage for mounted filesystems.
+
+**Common Options:**
+
+-h → human-readable sizes
+
+**Example***
+```bash
+df -h
+```
+### command: free -m
+
+**Description:**
+Displays memory usage.
+
+**Common Options:**
+
+-m → show values in megabytes
+**Example**
+```bash
+free -m
+```
+### Screenshot
+<img width="1366" height="768" alt="ad6" src="https://github.com/user-attachments/assets/97e14cab-ba15-4ada-9882-ebd893902417" />
 
 ---
 ## basics/navigation
